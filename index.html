@@ -6,12 +6,19 @@
     <title>WOW</title>
   </head>
   <body>
+    <script>
+      function doSomething() {
+        const wow = document.getElementsByClassName("wow")[0];
+        wow.innerHTML = "YOU CLICK THE BUTTON";
+      }
+    </script>
     <h1>MY THINGS</h1>
     <ol>
-      <li>ML</li>
+      <li class="wow">ML</li>
       <li>Computer Networks</li>
       <li>Project Management</li>
       <li>Compiler</li>
     </ol>
+    <button onclick="doSomething()">click me</button>
   </body>
 </html>
