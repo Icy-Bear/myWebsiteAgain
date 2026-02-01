@@ -12,13 +12,31 @@
         wow.innerHTML = "YOU CLICK THE BUTTON";
       }
     </script>
-    <h1>MY THINGS</h1>
-    <ol>
-      <li class="wow">ML</li>
-      <li>Computer Networks</li>
-      <li>Project Management</li>
-      <li>Compiler</li>
-    </ol>
-    <button onclick="doSomething()">click me</button>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0px;
+      }
+
+      .center {
+        background-color: rgb(159, 241, 152);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+      }
+    </style>
+    <div class="center">
+      <h1>MY THINGS</h1>
+      <ol>
+        <li class="wow">ML</li>
+        <li>Computer Networks</li>
+        <li>Project Management</li>
+        <li>Compiler</li>
+      </ol>
+      <button onclick="doSomething()">click me</button>
+    </div>
   </body>
 </html>
